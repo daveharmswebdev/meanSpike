@@ -1,0 +1,1 @@
+"use strict";const app=angular.module("app",[]);app.controller("mainCtrl",["$scope",function(l){l.test="hello world"}]);

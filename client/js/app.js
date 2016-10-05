@@ -1,1 +1,1 @@
-"use strict";const app=angular.module("app",[]);app.controller("mainCtrl",["$scope",function(l){l.test="hello world"}]);
+"use strict";const app=angular.module("app",[]);app.controller("mainCtrl",["$scope",function(o){o.test="hello world how are you"}]);

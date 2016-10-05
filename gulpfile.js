@@ -12,3 +12,7 @@ gulp.task('js', function() {
 		.pipe(uglify())
 		.pipe(gulp.dest('client/js'))
 })
+
+gulp.task('watch', ['js'], function() {
+	gulp.watch('src/**/*.js', ['js'])
+})
